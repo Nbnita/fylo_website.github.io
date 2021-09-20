@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/* Navbar */
+
+.navbar {
+  margin: 2.5rem 1.5rem 0;
+}
+.navbar-nav .nav-link {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+ul.navbar-nav.navrow {
+  flex-direction: row;
+}
+li.nav-item {
+  padding: 10px;
+}
+a.nav-link.text {
+    color: hsl(243, 87%, 12%);
+}
+
+/* About */
+.about{
+    margin: 10% 4%;
+    text-align: left;
+    align-items: center;
+}
+.heading,.curved-heading{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+.about-text,.curved-text,.access-text,.access-heading{
+    padding-top: 10px;
+    font-weight: 400;
+    width: 80%;
+    text-align: left;
+}
+.input-text{
+    padding: 10px;
+}
+
+/* Curved Section */
+
+.curved{
+  background-color: hsl(240, 75%, 98%);
+}
+.curve-background{
+  background-size: cover;
+  width: 100%;
+}
+.section{
+  margin: 0 4%;
+  padding: 50px 0;
+}
+.underline{
+  color: hsl(170, 45%, 43%);
+}
+.card{
+  width: 368px; height: 259px;
+}
+.circle{
+  border-radius: 20px;
+}
+.cardtext{
+  font-size: 14px;
+}
+
+/* Access */
+.access{
+  background-color: hsl(238, 22%, 44%);
+  padding: 5% 4%;
+}
+.access-heading{
+  color: hsl(240, 75%, 98%);
+}
+.access-text,.form-control{
+  color: hsl(0, 0%, 75%);
+}
+.formcontrol{
+  margin: 10px 0;
+  padding: 10px 0;
+  text-align: start;
+}
+.form-group{
+  padding-bottom: 10px;
+}
+
+/* Footer Section */
+.footer{
+  background-color: hsl(243, 87%, 12%);
+  color:hsl(240, 75%, 98%);
+  padding: 8% 4%;
+}
+.image{
+  filter: invert(92%) sepia(74%) saturate(0%) hue-rotate(106deg) brightness(108%) contrast(100%);
+  padding-bottom: 30px;
+}
+.anchor{
+  text-decoration: none;
+  color: hsl(240, 75%, 98%);
+  line-height: 2;
+}
+i,.icon{
+  padding: 0 10px;
+}
+.ico{
+  font-size: 2rem;
+}
+
+/* Media queries */
+@media (max-width: 576px) {
+  .logo{
+    width: 80px;
+  }
+  .navbar {
+    margin: 2rem 1rem 0;
+}
+  .about{
+    padding-top: 20px;
+  }
+  .container{
+    padding-top: 30px;
+  }
+  .about-text,.curved-text,.access-text,.access-heading,.heading,.curved-heading{
+    text-align: center;
+    width: 100%;
+  }
+  .card{
+    width: 100%;
+    height: auto;
+  }
+
+  .access,.footer{
+    padding: 50px 30px;
+  }
+  .ico{
+    font-size: 1.5rem;
+    padding-top: 50px;
+  }
+
+}

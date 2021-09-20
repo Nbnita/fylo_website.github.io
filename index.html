@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">
+        <img src="images/logo.svg" class="logo" alt="">
+      </a>
+      <div>
+        <ul class="navbar-nav navrow">
+          <li class="nav-item">
+            <a class="nav-link text active" aria-current="page" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text" href="#">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="about">
+    <div class="row flex-column-reverse flex-lg-row">
+      <div class="col-lg-6">
+        <div class="container text-start">
+          <h1 class="heading">All your files in one secure location, accessible anywhere.</h1>
+          <p class="about-text">Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
+          <form action="">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter your email.." aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button">Button</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <img class="img-fluid" height="450" width="450" src="images/illustration-1.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="curved-section">
+    <div class="curved-upper">
+      <img src="images/bg-curve-desktop.svg" class="curve-background" alt="">
+    </div>
+    <div class="curved">
+      <div class="section">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-lg-6">
+            <div class="container text-start" height="500" width="500">
+              <h1 class="curved-heading">Stay productive, wherever you are</h1>
+  
+              <p class="curved-text">Never let location be an issue when accessing your files. Fylo has you 
+              covered for all of your file storage needs.</p>
+            
+              <p class="curved-text">Securely share files and folders with friends, family and colleagues for 
+              live collaboration. No email attachments required!</p>
+              <p class="underline"><u>See how Fylo works <img src="images/icon-arrow.svg" alt=""></u></p>
+              <div class="card p-2">
+                <blockquote class="blockquote mb-0 card-body">
+                  <img src="images/icon-quotes.svg" alt="">
+                  <p class="cardtext"> Fylo has improved our team productivity by an order of magnitude. Since 
+                    making the switch our team has become a well-oiled collaboration machine.</p>
+                    <div class="row">
+                      <div class="col-lg-2">
+                        <img src="images/avatar-testimonial.jpg" class="img-fluid circle" width="50" height="45" alt="">
+                      </div>
+                      <div class="col-lg-8">
+                        <h6>Kyle Burton</h6>
+                        <p class="cardtext"><small class="text-muted">Founder & CEO, Huddle</small></p>
+                      </div>
+                    </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center">
+            <img class="img-fluid" height="450" width="450" src="images/illustration-2.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="access">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="access-heading">Get early access today</h1>
+        <p class="access-text">It only takes a minute to sign up and our free starter tier is extremely generous. 
+          If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="col-lg-6 text-center">
+        <form class="formcontrol">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@fylo.com">
+          </div>
+          <button type="submit" class="btn btn-primary">Get Started For Free</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="images/logo.svg" class="image">
+        <p><img src="images/icon-phone.svg" class="icon">Phone: +1-543-123-4567</p>
+        <p><img src="images/icon-email.svg" class="icon">example@fylo.com</p>
+      </div>
+      <div class="col-lg-3 p-3">
+        <a href="#" class="anchor">About Us</a><br>
+        <a href="#" class="anchor">Jobs</a><br>
+        <a href="#" class="anchor">Press</a><br>
+        <a href="#" class="anchor">Blog</a>
+      </div>
+      <div class="col-lg-3 p-3">
+        <a href="#" class="anchor">Contact us</a><br>
+        <a href="#" class="anchor">Terms</a><br>
+        <a href="#" class="anchor">Privacy</a>
+      </div>
+      <div class="col-lg-3 ico">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Nbnita">Nabanita Borkakoti</a>.
+    </p>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
